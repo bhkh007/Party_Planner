@@ -1,2 +1,1 @@
-# Party_Planner
-Party planning web technology project
+# WPT_Mini_Project

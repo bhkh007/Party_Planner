@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.review{
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+.userlogo{
+    height: 30px;
+}
+.r1{
+    width: 370px;
+    height: 230px;
+    padding: 25px;
+    border-radius: 15px;
+   
+    background-color: white;
+}
+.username{
+    margin-top: 10px;
+}
+
+.review-text{
+    height: 100px;
+}
+.r1span{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.date{
+    font-size: 13px;
+    margin-left: 5px;
+}
+@media (max-width: 554px) {
+    .r1{
+        display: none;
+
+    }
+    .r3{
+        display: block;
+    }
+    
+    
+}

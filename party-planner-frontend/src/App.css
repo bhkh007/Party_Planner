@@ -1,0 +1,29 @@
+
+.call{
+    position: fixed;
+    bottom: 3px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    right: 5px;
+    margin: 10px 5px;
+    padding: 7px 15px;
+    background-color:#d32c1f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size:  15px;
+    font-weight: bold;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 25%);
+}
+.call:hover{
+    border:0.5px solid #d32c1f;
+    background-color: white;
+    color: #d32c1f;
+}
+.main-div{
+    padding:0px 10px;
+}
+body{
+    font-family: pacifico;
+    padding-left:50px;
+}
